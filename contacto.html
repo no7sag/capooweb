@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>CapooWeb ─ Contacto</title>
+    <!-- STYLES -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="img/capooweb_logo.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/abcc2d2dc9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <a href="#" class="nav-logo">CapooWeb</a>
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="index.html" class="nav-link">INICIO</a></li>
+            <li class="nav-item"><a href="galeria.html" class="nav-link">GALERIA</a></li>
+            <li class="nav-item"><a href="videos.html" class="nav-link">VIDEOS</a></li>
+            <li class="nav-item"><a href="contacto.html" class="nav-link">CONTACTO</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+</header>
+
+<main>
+<div class="title-h1">
+    <h1>Contacto</h1>
+</div>
+
+<section class="contact-intro">
+    <p>¿Querés contarnos algo? ¿Tenés alguna duda?<br>Escribinos a <a href="mailto:capoocat@gmail.com">capoocat@gmail.com</a> o dejanos un mensaje aquí abajo.</p>
+</section>
+
+
+<form>
+    <div class="form-group">
+        <label>Nombre</label><br>
+        <input type="text" class="form_nombre" placeholder="Elon Musk">
+    </div>
+    <div class="form-group">
+        <label>Correo electrónico</label><br>
+        <input type="email" class="form_email" placeholder="elonmusk@ejemplo.com">
+    </div>
+    <div class="form-group">
+        <label>¿Qué te parece la página?</label><br>
+        <div class="form-check">
+            <input class="form-check-input" name="form-score" type="radio" value="option1" checked>
+            <label class="form-check-label" for="inlineRadio1">¡Está genial!</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" name="form-score" type="radio" value="option2">
+            <label class="form-check-label" for="inlineRadio1">Me gusta</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" name="form-score" type="radio" value="option3">
+            <label class="form-check-label" for="inlineRadio2">Pasable</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" name="form-score" type="radio" value="option4">
+            <label class="form-check-label" for="inlineRadio3">No me gusta</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" name="form-score" type="radio" value="option5">
+            <label class="form-check-label" for="inlineRadio3">Hmm...</label>
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Comentario</label><br>
+        <textarea class="form_comentario" rows="4"></textarea>
+    </div>
+    <button type="submit" class="form_submit">Enviar</button>
+    <div class="form-group form-div-msg-submit">
+        <p class="form_msg_submit"></p>
+    </div>
+</form>
+</main>
+
+<footer>
+    <div class="footer__grid">
+        <ul class="footer__ul">
+            <li class="footer__li footer__title">CONTENIDO</li>
+            <li class="footer__li"><a href="index.html"><i class="fas fa-home"></i>Inicio</a></li>
+            <li class="footer__li"><a href="galeria.html"><i class="fas fa-images"></i>Galería</a></li>
+            <li class="footer__li"><a href="videos.html"><i class="fas fa-play-circle"></i>Videos</a></li>
+            <li class="footer__li"><a href="contacto.html"><i class="fas fa-envelope"></i>Contacto</a></li>
+        </ul>
+        <ul class="footer__ul">
+            <li class="footer__li footer__title">REDES</li>
+            <li class="footer__li"><a href="https://www.youtube.com/c/BugCatCapoo/videos" target="_blank"><i class="fab fa-youtube"></i>YouTube</a></li>
+            <li class="footer__li"><a href="https://www.facebook.com/capoocat" target="_blank"><i class="fab fa-facebook"></i>Facebook</a></li>
+            <li class="footer__li"><a href="https://www.instagram.com/bugcat_capoo/" target="_blank"><i class="fab fa-instagram"></i>Instagram</a></li>
+        </ul>
+        <ul class="footer__ul">
+            <li class="footer__li footer__msg">Codo a Codo 2021 ─ TPO FrontEnd. Hecho por Alejandro Corvalán.</li>
+        </ul>
+    </div>
+</footer>
+    <!-- SCRIPTS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
